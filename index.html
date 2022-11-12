@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Elements (arreglos)</title>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <center>
+        <h3 style="margin-top: 20px; margin-bottom: 20px; ">
+            Lista de Invitados:
+        </h3>
+        <div id="rows">
+            <input type="text" id="nombre_invitado">
+            <button onclick="enviar_1()" id="botón_enviar">Enviar</button>
+            <br>
+        </div>
+        <hr>
+
+        <div id="display_name">
+        </div>
+        <hr>
+        <div id="Show1"><h3 id="hd1">Lista de invitados</h3>
+            <button onclick="mostrar_nombres()" id="show">Mostrar</button>
+            <p id="p1"></p></div>
+        
+    <hr>
+        <button onclick="ordenar_nombres()" id="sort_button">
+            Lista ordenada
+        </button>
+        <div id="sorted"></div>
+        </div>
+        <hr>
+        <input type="text" placeholder="Buscar nombre" id="n1">&nbsp;
+        <button onclick="buscar_nombre()" id="srch">Buscar</button>
+        <p id="p2"></p>
+    </center>
+</body>
+
+</html>
